@@ -21,4 +21,7 @@ Then (/^I send message "([^"]*)"$/) do |message|
   sleep 3
   @browser.find_element(xpath: "//*[@id='mail_box_send']").click
   sleep 3
+  sleep 3
+  sleep 2
+  sleep 1
 end
